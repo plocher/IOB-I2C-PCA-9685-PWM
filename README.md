@@ -15,7 +15,7 @@ IOB I2C PCA9685 PWN driver
 
 ### Communication Protocol
 
-``` {.cpp}
+```C++
 Simple I2C 16-bit Reads and Writes:
 
 void I2Cexpander::init9685(uint8_t i2caddr, uint16_t dir) {
