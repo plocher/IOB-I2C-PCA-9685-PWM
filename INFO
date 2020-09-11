@@ -1,0 +1,9 @@
+title: IOB-I2C-PCA-9685-PWM
+project: IOB-I2C-PCA-9685-PWM
+designer: John Plocher
+author: John Plocher
+fabricated: yes
+fab_date: 2020.09
+status: released
+release: yes
+tags: [eagle, SPCoast]
