@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
 <layer number="21" name="tPlace" color="19" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="22" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="17" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="30" fill="1" visible="no" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
 <layer number="25" name="tNames" color="63" fill="1" visible="no" active="no"/>
@@ -55,10 +55,10 @@
 <layer number="45" name="Holes" color="35" fill="1" visible="no" active="no"/>
 <layer number="46" name="Milling" color="35" fill="1" visible="no" active="no"/>
 <layer number="47" name="Measures" color="21" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="57" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="47" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="48" fill="1" visible="no" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="49" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="24" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -4886,11 +4886,11 @@ http://freedomdefined.org/OSHW   Creative Commons - Attribution - ShareAlike 3.0
 </classes>
 <parts>
 <part name="FRAME1" library="MCP" deviceset="FRAME-LETTER" device=""/>
-<part name="U$1" library="SPCoast" deviceset="DOC-OSHW-LOGO-" device="L" value="DOC-OSHW-LOGO-L"/>
+<part name="U$1" library="SPCoast" deviceset="DOC-OSHW-LOGO-" device="L" value="OSHW"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="V9" library="supply2" deviceset="GND" device=""/>
-<part name="SW1" library="SPCoast" deviceset="SW_DIP-4" device="" value="A0"/>
-<part name="SW2" library="SPCoast" deviceset="SW_DIP-4" device="" value="A1"/>
+<part name="SW1" library="SPCoast" deviceset="SW_DIP-4" device="" value="SPSTx4"/>
+<part name="SW2" library="SPCoast" deviceset="SW_DIP-4" device="" value="SPSTx4"/>
 <part name="V5" library="supply2" deviceset="GND" device=""/>
 <part name="V6" library="supply2" deviceset="GND" device=""/>
 <part name="BOARD" library="SPCoast" deviceset="CONNECTOR-I2C-EXPANDER" device=""/>
@@ -4901,12 +4901,12 @@ http://freedomdefined.org/OSHW   Creative Commons - Attribution - ShareAlike 3.0
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="V2" library="supply2" deviceset="GND" device=""/>
 <part name="V3" library="supply2" deviceset="GND" device=""/>
-<part name="R1" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
-<part name="R2" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
-<part name="R3" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
-<part name="R4" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
-<part name="R5" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
-<part name="R6" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
+<part name="R1" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
+<part name="R2" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
+<part name="R3" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
+<part name="R4" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
+<part name="R5" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
+<part name="R6" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
